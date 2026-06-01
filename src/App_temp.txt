@@ -1,0 +1,20 @@
+﻿import { useState, useRef, useEffect } from "react";
+
+const CATALOGUES_TRANG_TRI = [
+  { name: "ĐÈN TRANG TRÍ ANDORA LIGHT", img: "https://images.unsplash.com/photo-1524484485831-a92ffc0de03f?w=300&q=80", link: "#" },
+  { name: "ĐÈN TRANG TRÍ VERONIA LIGHTING", img: "https://images.unsplash.com/photo-1513506003901-1e6a35f09b15?w=300&q=80", link: "#" },
+  { name: "ĐÈN TRANG TRÍ 355 LIGHTING", img: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=300&q=80", link: "#" },
+  { name: "ĐÈN TRANG TRÍ HUFA LIGHTING", img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&q=80", link: "#" },
+  { name: "ĐÈN TRANG TRÍ SLISTER A LIGHTING", img: "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=300&q=80", link: "#" },
+  { name: "ĐÈN TRANG TRÍ 79 LIGHTING", img: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=300&q=80", link: "#" },
+  { name: "QUẠT ĐÈN QVIFA FAN", img: "https://images.unsplash.com/photo-1516455207990-7a41ce80f7ee?w=300&q=80", link: "#" },
+  { name: "ĐÈN TRANG TRÍ SANO LIGHTING", img: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=300&q=80", link: "#" },
+];
+const CATALOGUES_CHIEU_SANG = [
+  { name: "PANASONIC", img: "https://images.unsplash.com/photo-1524484485831-a92ffc0de03f?w=300&q=80", link: "#" },
+  { name: "GS LIGHTING", img: "https://images.unsplash.com/photo-1513506003901-1e6a35f09b15?w=300&q=80", link: "#" },
+  { name: "VINALED LIGHTING", img: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=300&q=80", link: "#" },
+  { name: "PHILIPS", img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&q=80", link: "#" },
+  { name: "RẠNG ĐÔNG LIGHTING", img: "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=300&q=80", link: "#" },
+  { name: "DUHAL LIGHTING", img: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=300&q=80", link: "#" },
+];
